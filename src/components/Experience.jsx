@@ -17,7 +17,7 @@ export const Experience = () => {
       </Float>
 
       <OrbitControls />
-      <Environment preset="studio" />
+      {/* <Environment preset="studio" /> */}
 
       <directionalLight
         position={[2, 5, 2]}
