@@ -6,10 +6,10 @@ export const Experience = () => {
   return (
     <>
       <Float
-        rotation-x={-Math.PI / 4}
-        floatIntensity={1}
-        speed={2}
-        rotationIntensity={2}
+          rotation-x={-Math.PI / 4}
+          floatIntensity={0.15}
+          speed={0.5}
+          rotationIntensity={0.15}
       >
         <group position={[-0.3, 0.1, 0]}>
           <Book />
